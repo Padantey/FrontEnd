@@ -1,0 +1,19 @@
+.footer {
+  background-color: grey;
+  padding: 1px;
+  text-align: center;
+}
+.footer ul {
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+.footer li {
+  color: white;
+  margin: 2px;
+  list-style-type: none;
+  display: inline-block;
+}
+.footer a {
+  color: white;
+}

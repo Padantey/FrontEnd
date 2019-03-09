@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link type="text/css" rel="stylesheet" href="login.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Sign Up Page</title>
+  </head>
+
+  <body>
+    <div class="wrapper clearfix">
+      <div class="panel-1">
+        <img
+          src="logoskyblue.jpg"
+          alt=""
+          class="logo"
+          style="width:280px; padding-left: 30%;"
+        />
+        <h2 align="center">---<a>SIGN UP</a>---</h2>
+        <form action="#" method="" align="center">
+          <div class="element" align="center">
+            <input type="text" size="20" placeholder="Name" required />
+            <input type="text" size="20" placeholder="Username" required />
+            <input
+              type="email"
+              size="20"
+              placeholder="Email Address"
+              required
+            />
+
+            <input type="password" size="20" Placeholder="Password" required />
+            <input
+              type="password"
+              size="20"
+              Placeholder="Confirm Password"
+              required
+            />
+            <input type="tel" size="20" Placeholder="Contact Number" required />
+            <div class="box">
+              <label for="University-select"></label>
+              <select name="university" id="University-select">
+                <option value="tu">Tribhuvan University</option>
+                <option value="ku">Kathmandu University</option>
+                <option value="pu">Pokhara University</option>
+              </select>
+              <br />
+              <label for="Faculty-select"></label>
+              <select name="faculty" id="Faculty-select">
+                <option value="bct">Computer Engineering</option>
+                <option value="bex"> Electronics Engineering</option>
+                <option value="bel"> Electrical Engineering</option>
+                <option value="bge"> Geomatics Engineering</option>
+                <option value="bce"> Civil Engineering</option>
+                <option value="bme">Mechanical Engineering</option>
+              </select>
+              <br />
+              <label for="semester-select"></label>
+              <select name="semester" id="semester-select">
+                <option value="1">First Semester</option>
+                <option value="2">Second Semester</option>
+                <option value="3">Third Semester</option>
+                <option value="4">Fourth Semester</option>
+                <option value="5">Fifth Semester</option>
+                <option value="6">Sixth Semester</option>
+                <option value="7">Seventh Semester</option>
+                <option value="8"> Eighth Semester</option>
+              </select>
+            </div>
+            <input
+              type="checkbox"
+              name="checkbox"
+              id="checkbox"
+              required
+            /><strong> I accept the terms and conditions of Padantey!!!</strong>
+
+            <div class="btn ">
+              <button class="btn btn-primary " type="submit">Sign Up</button>
+            </div>
+          </div>
+        </form>
+        <p align="center">
+          <a href="#">Already have an account ?</a>
+          <a href="login.html">Log In</a>
+        </p>
+      </div>
+
+      <div class="panel-2"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

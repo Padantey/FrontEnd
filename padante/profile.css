@@ -1,0 +1,48 @@
+body{
+  background-color: lightblue;
+  ba
+}
+
+
+h2 {
+  color:blue;
+
+}
+.info {
+  background-color: lightgrey;
+  width: 300px;
+  border: 3px solid blue;
+  padding: 10px;
+  margin: 20px;
+}
+.details {
+  background-color: lightgrey;
+  width: 300px;
+  border: 3px dashed black;
+  padding: 10px;
+  margin: 20px;
+}
+#fixedbutton {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
+.footer {
+  background-color: grey;
+  padding: 1px;
+  text-align: center;
+}
+.footer ul {
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+.footer li {
+  color: white;
+  margin: 2px;
+  list-style-type: none;
+  display: inline-block;
+}
+.footer a {
+  color: white;
+}

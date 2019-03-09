@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Padantey</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="addform.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </head>
+  <body>
+      <nav class="navbar navbar-inverse sticky-top">
+          <div class="container-fluid" style="background-color: rgb(18,23,83)">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="home.html"><img src="./padanteylogosano.jpg" alt="" class="logo" style="width: 100px;"></a>
+            </div>
+            <ul class="nav navbar-nav" style = "float: right">
+              <li class="active"><a href="home.html">Home</a></li>
+            
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+                  >Hi,Mahesh <span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="profile.html">Your Profile</a></li>
+                  <li><a href="login.html">Log Out</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      
+    <div class="container">
+      <form action="" align="center">
+        <div>
+            <i class="fas fa-user-graduate fa-7x" ></i>
+        </div>
+        <div class="form-inline">
+          <label for="title">Note Title:</label>
+          <input
+            class="form-control"
+            type="text"
+            name="title"
+            id="title"
+            placeholder="Computer Programming"
+            required
+          />
+        </div>
+        <div class="form-inline">
+          <label for="author">Author Name:</label>
+          <input
+            class="form-control"
+            type="text"
+            name="author"
+            id="author"
+            placeholder="Ram Datta Bhatta"
+          />
+        </div>
+        <div class="form-inline">
+          <label for="price">Price :</label>
+          <input
+            class="form-control"
+            type="number"
+            name="price"
+            id="price"
+            placeholder="Rs 200"
+            
+          />
+        </div>
+        <div class="form-inline">
+          <label for="pages">No of Pages:</label>
+          <input
+            class="form-control"
+            type="number"
+            name="pages"
+            id="pages"
+            placeholder="420"
+          />
+          <div>
+            <label for="description">Description:</label>
+            <input  type="text" name="description" id="description" >
+          </div>
+          <div class="form-inline">
+            <label for="quality-select">Quality of Note:</label>
+            <select name="quality" id="quality-select">
+              <option value="awesome">Awesome</option>
+              <option value="better">Better</option>
+              <option value="good">Good</option>
+              <option value="bad">Bad</option>
+              <option value="poor">Poor</option> 
+            </select>
+          </div>
+        
+          <div class="form-group">
+            <label for="subject-select">Subject:</label>
+            <select name="subject" id="subject-select">
+              <option value="c">Computer Programming</option>
+              <option value="math-I">Engineering Mathematics-I</option>
+              <option value="drawing-I">Engineering Drawing-I</option>
+              <option value="physics">Engineering Physics</option>
+              <option value="applied">Applied Mechanics</option>
+              <option value="electrical">Basic Electrical Engineering</option>
+              <option value="drawing-II">Engineering Drawing-II</option>
+              <option value="math-II">Engineering Mathematics-II</option>
+              <option value="electronics">Basic Electronics Engineering</option>
+              <option value="chemistry">Engineering Chemistry</option>
+              <option value="thermo">Fundamentals of Thermodynamics and Heat Transfer</option>
+              <option value="workshop">Workshop Technology</option>
+              <option value="math-III">Engineering Mathematics-III</option>
+              <option value="oop">Object Oriented Programming</option>
+              <option value="toc">Theory Of Computation</option>
+              <option value="ect">Electric Circuit Theory</option>
+              <option value="edc">Electronics Device and Circuits</option>
+              <option value="dl">Digital Logic</option>
+              <option value="em">Electromagnetics</option>
+              <option value="math">Applied Mathematics</option>
+              <option value="nm">Numerical Methods</option>
+              <option value="machine">Electric Machine</option>
+              <option value="ds">Discrete Structure</option>
+              <option value="dsa">Data Structure and Algorithm</option>
+              <option value="micro">Microprocessor</option>
+              <option value="instrumentation-I">Instrumentation-I</option>
+              <option value="english">Communication English</option>
+              <option value="probability">Probability and Statistics</option>
+              <option value="se">Software Engineering</option>
+              <option value="dc">Data Communication</option>
+              <option value="coa">Computer Organization and Architecture </option>
+              <option value="instrumentation-II">Instrumentation-II</option>
+              <option value="cg">Computer Graphics</option>
+              <option value="economics">Engineering Economics</option>
+              <option value="ooad">Object Oriented Analysis and Design</option>
+              <option value="dbms">Database Management Systems</option>
+              <option value="ai">Artificial Intelligence</option>
+              <option value="es">Embedded System</option>
+              <option value="os">Operating System</option>
+              <option value="minorproject">Minor Project</option>
+              <option value="om">Organization and Management</option>
+              <option value="ees">Energy,Environment and Society</option>
+              <option value="pm">Project Management</option>
+              <option value="cn">Computer Network</option>
+              <option value="distribuited">Distribuited System</option>
+              <option value="dsaa">Digital Signal Analysis and Processing</option>
+              <option value="e-I">Elective-I</option>
+              <option value="epp">Engineering Professional Practice</option>
+              <option value="is">Information Systems</option>
+              <option value="sm">Simulation and Modeling</option>
+              <option value="ii">Internet and Intranet</option>
+              <option value="e-II">Elective-II</option>
+              <option value="e-III">Elective-III</option>
+              </select>
+            </div>
+            <div>
+          <button type="submit">Add Note</button>
+        </div>
+      </form>
+    </div>
+    <br>
+    <br>
+    <div class="footer">
+      <ul >
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Feedabck</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Privacy Policy</a> </a></li>
+        <ul><a href="">@Padantey2019</a></ul>
+      </ul>
+      </div>
+  </body>
+</html>
