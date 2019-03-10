@@ -1,0 +1,43 @@
+h1 {
+  color: lightblue;
+}
+h2 {
+  color: blue;
+}
+.card {
+  width: 25rem;
+  margin: 3%;
+  border: 1px solid silver;
+  padding: 10px;
+  display: inline-block;
+}
+.card-img-top {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+#fixedbutton {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
+
+.footer {
+  background-color: grey;
+  padding: 1px;
+  text-align: center;
+}
+.footer ul {
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+.footer li {
+  color: white;
+  margin: 2px;
+  list-style-type: none;
+  display: inline-block;
+}
+.footer a {
+  color: white;
+}
