@@ -1,11 +1,8 @@
-body{
-  background-color: lightblue;
-  ba
+h1 {
+  color: lightblue;
 }
-
-
 h2 {
-  color:blue;
+  color: blue;
 }
 .card {
   width: 25rem;
@@ -19,25 +16,12 @@ h2 {
   height: 180px;
   object-fit: cover;
 }
-.info {
-  background-color: lightgrey;
-  width: 300px;
-  border: 3px solid blue;
-  padding: 10px;
-  margin: 20px;
-}
-.details {
-  background-color: lightgrey;
-  width: 300px;
-  border: 3px dashed black;
-  padding: 10px;
-  margin: 20px;
-}
 #fixedbutton {
   position: fixed;
   bottom: 100px;
   right: 100px;
 }
+
 .footer {
   background-color: grey;
   padding: 1px;
